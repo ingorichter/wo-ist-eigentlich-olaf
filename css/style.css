@@ -1,0 +1,58 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body styles */
+body {
+  /* Gradient background */
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+/* Container for image and headline */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image styles */
+.img-hero {
+  max-width: 100%; /* ensures the image is responsive */
+  height: auto;
+  border-radius: 10px; /* optional: for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* optional: for a shadow effect */
+  margin-bottom: 2rem; /* space between image and headline */
+}
+
+/* Headline styles */
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+/* Responsive text size */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Further media queries can be added for more responsiveness */
