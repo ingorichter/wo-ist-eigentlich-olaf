@@ -7,28 +7,51 @@
 
 body, html {
   width: 100%;
-  height: 100%;
   font-family: 'Arial', sans-serif;
+}
+
+p {
+  margin: 10px;
+  margin-top: 20px;
+  font-size: x-large;
+  color: white;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: small;
+  color: peachpuff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-size: 2rem;
+  color: black;
 }
 
 /* Body styles */
 body {
   /* Gradient background */
-  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  background: radial-gradient(#8f1e43 5.46%, #e44856);
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   height: 100vh;
 }
 
 /* Container for image and headline */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+/*.container {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
 
 /* Image styles */
 .img-hero {
