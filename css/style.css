@@ -17,6 +17,10 @@ p {
   color: white;
 }
 
+header {
+  margin-top: 4rem;
+}
+
 footer {
   margin-top: 10px;
   font-size: small;
